@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">egg</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 提示 -->
+    <string name="base_fail">加载失败！</string>
+    <string name="base_retry">点击重新加载</string>
+    <string name="base_finish">加载完成！</string>
+    <string name="base_loading_failed">加载失败!</string>
+    <string name="base_loading">加载中，请稍候...</string>
+    <string name="base_wrong_class">必须实现相应的方法！</string>
+    <string name="base_network_error">无连接！</string>
+    <string name="base_timeout_error">连接超时！</string>
+    <string name="base_server_error">服务器错误！</string>
+    <string name="base_no_connection_error">无连接！</string>
+    <string name="base_default_error">加载失败，请稍后再试！</string>
+
+    <!-- 默认值 -->
+    <string name="base_content_description">@null</string>
+    <string name="base_text"></string>
+
+    <string name="title_activity_location_picker">选择地区</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_image">暂时没有图片</string>
+    <string name="all_images">所有图片</string>
+    <string name="preview">预览</string>
+    <string name="select_images_first">请至少选择一张图片进行预览！</string>
+
+</resources>

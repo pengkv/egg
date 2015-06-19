@@ -1,0 +1,31 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+
+    <!-- 电话链接蓝色 -->
+    <color name="blue_phone">#34b9e4</color>
+    
+    <color name="default_backgroud">#f4f4f4</color>
+
+    <!--ImagePicker-->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="menu_bg">#101F2D</color>
+    <color name="light_gray">#AA808080</color>
+    <color name="gray">#dddddd</color>
+    <color name="tab_bg">#142029</color>
+    <color name="bg_light_blue">#EBF5FF</color>
+    <color name="light_black">#CC000000</color>
+    <color name="light_black_AA">#AA000000</color>
+    <color name="light_black_">#33000000</color>
+    <color name="light_white_">#33FFFFFF</color>
+    <color name="dialog_bg">#f0f0f0</color>
+
+    <color name="image_background">#4b4b4b</color>
+
+    <drawable name="light_black_">#33000000</drawable>
+
+    <color name="primary">#a13f26</color>
+    <color name="primary_on">#aa523c</color> <!--选中-->
+    <color name="primary_dark">#6a220f</color>
+    
+</resources>

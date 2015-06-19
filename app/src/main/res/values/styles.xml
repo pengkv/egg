@@ -1,0 +1,42 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="RosemaryBaseTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="RosemaryTheme" parent="RosemaryBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="RosemaryTheme.ImagePicker">
+        <!--<item name="windowActionBar">false</item>-->
+        <item name="actionMenuTextAppearance">@style/StandardMenuText</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/cinnamomum</item>
+    </style>
+
+    <style name="StandardMenuText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- 主页面查询的popupwindow的出现动画 -->
+    <style name="found_popwin_show">
+        <item name="android:windowEnterAnimation">@anim/scale_show</item>
+        <item name="android:windowExitAnimation">@anim/scale_exit</item>
+    </style>
+
+
+</resources>
